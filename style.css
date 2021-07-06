@@ -26,6 +26,10 @@
             line-height: 50%;
         }
         
+        .half-width p {
+            font-size: 20px;
+        }
+        
         span {
             color: orange;
         }
@@ -105,4 +109,15 @@
             width: 70%;
             margin-left: 280px;
             box-shadow: 1px 1px 7px gray;
+        }
+        
+        footer {
+            text-align: center;
+            background-color: #111;
+            color: white;
+            padding: 40px;
+        }
+        
+        footer h2 {
+            color: gray;
         }
