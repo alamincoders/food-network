@@ -8,6 +8,7 @@
         .flexible-area {
             display: flex;
             margin-bottom: 100px;
+            color: gray;
         }
         
         .half-width {
@@ -55,6 +56,14 @@
             background-size: cover;
         }
         
+        #product {
+            color: black;
+        }
+        
+        #product-header {
+            color: gray;
+        }
+        
         #flexible-area-background img {
             width: 100%;
         }
@@ -100,22 +109,23 @@
         
         .about-popularity {
             display: inline-block;
-            padding: 10px 150px;
+            width: 30%;
+            padding: 20px;
         }
         
         .popularity-area {
             border-radius: 1em;
-            text-align: center;
-            width: 70%;
-            margin-left: 280px;
+            width: 100%;
+            margin: 20px;
             box-shadow: 1px 1px 7px gray;
+            padding-bottom: 50px;
         }
         
         footer {
             text-align: center;
             background-color: #111;
             color: white;
-            padding: 40px;
+            padding: 10px 40px 40px 40px;
         }
         
         footer h2 {
